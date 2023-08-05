@@ -1,0 +1,26 @@
+{
+	"name": "custom-react-template",
+	"version": "1.0.0",
+	"description": "A React configuration that comes with other enabling libraries/tools such as react-router, tailwind etc",
+	"main": "template.js",
+	"dependencies": {
+		"inquirer": "^8.2.6",
+		"react": "^18.2.0",
+		"react-router-dom": "^6.14.2",
+		"react-icons": "^4.10.1"
+	},
+	"scripts": {
+		"test": "crt",
+    "postinstall": "node setup.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Jon-tim/custom-react-template.git"
+	},
+	"author": "Oluwatimilehin J. Awoniyi",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Jon-tim/custom-react-template/issues"
+	},
+	"homepage": "https://github.com/Jon-tim/custom-react-template#readme"
+}
